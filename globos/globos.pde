@@ -1,6 +1,7 @@
 class Globo
 {
   float x, y,vx,vy;
+  String s;
   Globo (float _x, float _y)
   {
    x=_x;
@@ -19,6 +20,8 @@ class Globo
   {
       ellipse(x,y,90,110);
       line(x,y+65,x,y+80);
+      s = "hamed";
+      text(s, x+ 40 , y+ 30);
   }
   
 }
